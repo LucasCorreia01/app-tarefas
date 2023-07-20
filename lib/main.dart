@@ -1,6 +1,5 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:tarefas/firebase_options.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:tarefas/screens/add_task_screen.dart';
 import 'package:tarefas/screens/initial_screen.dart';
 import 'package:tarefas/screens/login_screen.dart';
@@ -8,20 +7,18 @@ import 'package:tarefas/services/auth_service.dart';
 import 'package:tarefas/services/task_service.dart';
 
 void main() async {
-  AuthService authService = AuthService();
-  TaskService taskService = TaskService();
-  bool isLogged = true;
-  await authService.getInstanceSharedPreferences().then((prefs) {
-    String? token = prefs.getString('token');
-    int? userId = prefs.getInt('userId');
-    if (token != null && userId != null) {
-      isLogged = false;
-      taskService.getAll(token, userId);
-    } else {
-      isLogged = false;
-    }
-  });
+  WidgetsFlutterBinding.ensureInitialized();
+  bool isLogged = await verifyToken();
   runApp(MainApp(isLogged));
+}
+
+Future<bool> verifyToken() async{
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+    String? token = prefs.getString('token');
+    if(token != null){
+      return true;
+    }
+    return false;
 }
 
 // ignore: must_be_immutable

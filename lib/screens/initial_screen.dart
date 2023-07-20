@@ -25,7 +25,6 @@ class _InitialScreenState extends State<InitialScreen> {
 
   @override
   Widget build(BuildContext context) {
-    refresh();
     return Scaffold(
       drawer: Drawer(
           child: ListView(
