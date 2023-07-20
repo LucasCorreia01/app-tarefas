@@ -16,5 +16,22 @@
       "id": 3
     }
   ],
-  "tasks": []
+  "tasks": [
+    {
+      "id": "cc64a0b0-2739-11ee-912c-ff802d20d38f",
+      "nameTask": "Lavar a casas",
+      "difficulty": "5",
+      "imageUrl": "https://www.cleanipedia.com/images/00d1hxgfwfa6/3uL4o2RkKiLhIT8Q7AYX19/554f929c8908e578b1e5188746051483/Y29tby1saW1wYXItY2FzYS5qcGc/990w-660h/como-limpar-a-casa.avif",
+      "userId": "1",
+      "level": "4"
+    },
+    {
+      "id": "f2aa24c0-2739-11ee-912c-ff802d20d38f",
+      "nameTask": "lavar a casas",
+      "difficulty": "3",
+      "imageUrl": "https://www.cleanipedia.com/images/00d1hxgfwfa6/3uL4o2RkKiLhIT8Q7AYX19/554f929c8908e578b1e5188746051483/Y29tby1saW1wYXItY2FzYS5qcGc/990w-660h/como-limpar-a-casa.avif",
+      "userId": "2",
+      "level": "10"
+    }
+  ]
 }
