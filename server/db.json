@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "email": "lucasdamasceno@gmail.com",
+      "password": "$2a$10$phKNuXXTBV2x7m5jSjGv5uRbvG9qTnUaKnWmA2dA.JfeigHKDUwVq",
+      "id": 1
+    },
+    {
+      "email": "lucas@gmail.com",
+      "password": "$2a$10$mEZYzkTIlVKEf1YOAbXd2.qVve75356jbC0u8oe221zT3VwXvuE0W",
+      "id": 2
+    },
+    {
+      "email": "leonardo@gmail.com",
+      "password": "$2a$10$3547C4cftCNy7GLTvXBVd.mUgYdJTJXgJxa23tDB9zCEGXQSY/flq",
+      "id": 3
+    }
+  ],
+  "tasks": []
+}

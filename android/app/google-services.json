@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "476755732089",
+    "project_id": "primeiro-app-tarefas",
+    "storage_bucket": "primeiro-app-tarefas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476755732089:android:4b75e22b6ceab7c2d556a8",
+        "android_client_info": {
+          "package_name": "com.example.tarefas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476755732089-75n8u44llr2jv8gskbieug2o7jfeujrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpGCMh44hopEg9NuYy3VJyfwYhOiXOcIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476755732089-75n8u44llr2jv8gskbieug2o7jfeujrj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "476755732089-7tpr40tr1fhq965uo66i7c83ovqpocqi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tarefas"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
